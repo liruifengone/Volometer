@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9B9B9E</color>
+    <color name="colorPrimaryDark">#393a3f</color>
+    <color name="colorAccent">#3cb4fa</color>
+
+    <color name="toolbar_dark">#393a3f</color>
+    <color name="white">#fff</color>
+    <color name="pressed_gray">#d9d9d9</color>
+    <color name="text_normal">#222</color>
+    <color name="bg_main">#f5f4f4</color>
+    <color name="black">#000000</color>
+    <color name="text_blue">#3cb4fa</color>
+    <color name="line_table">#C9C9C9</color>
+    <color name="bg_light_gray">#e6e6e6</color>
+    <color name="text_tab_selected">#3cb4fa</color>
+    <color name="text_tip">#77626262</color>
+    <color name="text_tab_normal">#9B9B9E</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="bg_navigation_bar">#fcfcfc</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volometer</string>
+    <string name="config">配置</string>
+    <string name="measure">测量</string>
+    <string name="mine">我的</string>
+    <string name="import_config">导入配置</string>
+    <string name="confirm">确认</string>
+
+    <string name="mine_instructions">操作说明</string>
+    <string name="mine_about_us">关于我们</string>
+    <string name="mine_manual">用户手册</string>
+    <string name="mine_data_cmp">历史记录</string>
+    <string name="data_record">记录</string>
+    <string name="data_import">导入</string>
+
+    <string name="search_hint">请输入需要搜索的名称</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+
+    <string name="website">www.powerqiyi.com</string>
+    <string name="company">上海启亦电子科技有限公司</string>
+    <string name="company_abbr">启亦电子</string>
+    <string name="test_point_name">测试点名称</string>
+    <string name="wiring_form_config">接线形式设置</string>
+    <string name="PT_variety">PT变比</string>
+    <string name="CT_variety">CT变比</string>
+    <string name="safety_warning_threshold">安全警告门限</string>
+    <string name="config_import">导入配置</string>
+    <string name="local_file">本地文件</string>
+    <string name="net_file">网络文件</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">查询</string>
+    <string name="_import">导入</string>
+    <string name="connect_type">连接方式</string>
+    <string name="wifi">WiFi连接</string>
+    <string name="blue_tooth">蓝牙连接</string>
+    <string name="connection_tip">选择默认的连接方式后，启动后将默认使用该连接方式</string>
+    <string name="scan">扫描</string>
+    <string name="measure_history">测量记录</string>
+    <string name="local_history">本地记录</string>
+    <string name="net_history">网络记录</string>
+    <string name="select_all">全选</string>
+    <string name="delete">删除</string>
+    <string name="upload">上传</string>
+    <string name="mine_sync">信息同步</string>
+</resources>

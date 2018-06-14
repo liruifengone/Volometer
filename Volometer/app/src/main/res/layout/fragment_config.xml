@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/config_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/StyleTitleTextView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/config"
+            android:layout_alignParentLeft="true" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/selector_bg_items">
+                    <com.hearing.volometer.view.AutoTextView
+                        android:layout_width="@dimen/config_view_width"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/config_view_padding"
+                        android:paddingRight="@dimen/config_view_padding"
+                        android:text="@string/test_point_name"
+                        android:textSize="@dimen/config_title_text_size"
+                        />
+                    <EditText
+                        android:id="@+id/et_test_point_name"
+                        android:layout_width="180sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/selector_bg_items">
+                    <com.hearing.volometer.view.AutoTextView
+                        android:layout_width="@dimen/config_view_width"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/config_view_padding"
+                        android:paddingRight="@dimen/config_view_padding"
+                        android:text="@string/wiring_form_config"
+                        android:textSize="@dimen/config_title_text_size"
+                        />
+                    <EditText
+                        android:id="@+id/et_wiring_mode_config"
+                        android:layout_width="180sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/selector_bg_items">
+                    <com.hearing.volometer.view.AutoTextView
+                        android:layout_width="@dimen/config_view_width"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/config_view_padding"
+                        android:paddingRight="@dimen/config_view_padding"
+                        android:text="@string/PT_variety"
+                        android:textSize="@dimen/config_title_text_size"
+                        />
+                    <EditText
+                        android:id="@+id/et_PT_change_ratio"
+                        android:layout_width="180sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_bg_items"
+                    android:gravity="center_vertical">
+
+                    <com.hearing.volometer.view.AutoTextView
+                        android:layout_width="@dimen/config_view_width"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/config_view_padding"
+                        android:paddingRight="@dimen/config_view_padding"
+                        android:text="@string/CT_variety"
+                        android:textSize="@dimen/config_title_text_size" />
+
+                    <EditText
+                        android:id="@+id/et_CT_change_ratio"
+                        android:layout_width="180sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/selector_bg_items">
+                    <com.hearing.volometer.view.AutoTextView
+                        android:layout_width="@dimen/config_view_width"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/config_view_padding"
+                        android:paddingRight="@dimen/config_view_padding"
+                        android:text="@string/safety_warning_threshold"
+                        android:textSize="@dimen/config_title_text_size"
+                        />
+                    <EditText
+                        android:id="@+id/et_safety_warning_threshold"
+                        android:layout_width="180sp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="@dimen/config_padding_bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_below="@id/config_content">
+
+        <TextView
+            android:id="@+id/import_config"
+            style="@style/StyleTextButton"
+            android:text="@string/import_config" />
+        <TextView
+            android:id="@+id/confirm"
+            style="@style/StyleTextButton"
+            android:text="@string/confirm"
+            android:layout_marginLeft="80dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

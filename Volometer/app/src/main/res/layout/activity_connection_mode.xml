@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/toolbar_dark"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_title">
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/StyleTitleTextView"
+            android:text="@string/connect_type"/>
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:id="@+id/iv_back"
+                style="@style/StyleTitleBackImg"/>
+            <TextView
+                style="@style/StyleTitleBackToTextView"
+                android:layout_toRightOf="@+id/iv_back"
+                android:text="@string/mine"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title"
+        android:background="@color/bg_main">
+        <RelativeLayout
+            android:id="@+id/ll_choose_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <RadioGroup
+                android:id="@+id/rg_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+                <RadioButton
+                    android:id="@+id/rb_wifi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:text="@string/wifi"
+                    android:buttonTint="@color/text_blue"
+                    android:paddingLeft="10dp"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/rb_bluetooth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18sp"
+                    android:text="@string/blue_tooth"
+                    android:buttonTint="@color/text_blue"
+                    android:paddingLeft="10dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="15sp"
+                android:text="@string/connection_tip"
+                android:layout_below="@+id/rg_mode"/>
+        </RelativeLayout>
+
+        <com.hearing.volometer.view.recycler.LoadMoreRecyclerView
+            android:id="@+id/rv_bluetooth_list"
+            android:layout_below="@+id/ll_choose_mode"
+            android:layout_above="@+id/cpb_scan"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:visibility="gone"/>
+
+        <com.hearing.volometer.view.CircularProgressButton
+            android:id="@+id/cpb_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/text_blue"
+            android:text="@string/scan"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</RelativeLayout>

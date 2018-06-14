@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/StyleTitleTextView"
+                    android:text="@string/mine"/>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_title">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                                <LinearLayout
+                                    android:id="@+id/ll_mine_history"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@drawable/selector_bg_items">
+                                        <ImageView
+                                            style="@style/StyleMineImg"
+                                            android:src="@drawable/mine_record"/>
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="测量记录"
+                                            android:textColor="@color/text_normal"
+                                            android:textSize="20sp"/>
+                                        <ImageView
+                                            style="@style/StyleRightArrow"
+                                            android:layout_weight="0"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/ll_mine_connect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@drawable/selector_bg_items">
+                                        <ImageView
+                                            style="@style/StyleMineImg"
+                                            android:src="@drawable/mine_connect"/>
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="连接方式"
+                                            android:textColor="@color/text_normal"
+                                            android:textSize="20sp"/>
+                                        <ImageView
+                                            style="@style/StyleRightArrow"
+                                            android:layout_weight="0"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:id="@+id/ll_mine_sync"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:background="@drawable/selector_bg_items">
+                                        <ImageView
+                                            style="@style/StyleMineImg"
+                                            android:src="@drawable/mine_sync" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="信息同步"
+                                            android:textColor="@color/text_normal"
+                                            android:textSize="@dimen/mine_text_size"/>
+                                        <ImageView
+                                            style="@style/StyleRightArrow"
+                                            android:layout_weight="0"/>
+                                </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+                </ScrollView>
+        </RelativeLayout>
+
+</RelativeLayout>

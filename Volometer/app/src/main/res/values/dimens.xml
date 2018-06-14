@@ -1,0 +1,71 @@
+<resources>
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="text_size_title">21sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size_little">10sp</dimen>
+
+    <dimen name="margin_horizontal">14dp</dimen>
+    <dimen name="margin_horizontal_more">32dp</dimen>
+    <dimen name="margin_vertical">6dp</dimen>
+    <dimen name="margin_vertical_more">24dp</dimen>
+
+    <dimen name="padding_horizontal">12dp</dimen>
+    <dimen name="padding_horizontal_little">3dp</dimen>
+    <dimen name="padding_vertical">6dp</dimen>
+    <dimen name="padding_vertical_little">3dp</dimen>
+    <dimen name="padding_vertical_more">21dp</dimen>
+
+    <!--公共属性 -->
+    <dimen name="horizontal_margin">16dp</dimen>
+
+    <!-- text控件高度 -->
+    <dimen name="height_view">28dp</dimen>
+
+    <!-- 我的界面 -->
+    <dimen name="mine_option_margin_top">24dp</dimen>
+    <dimen name="mine_option_height">36dp</dimen>
+    <dimen name="mine_option_padding">5dp</dimen>
+    <dimen name="mine_option_img_vertical_margin">3dp</dimen>
+    <dimen name="mine_option_img_height">28dp</dimen>
+    <dimen name="mine_option_text_size">10sp</dimen>
+
+    <dimen name="arrow_right_size">14dp</dimen>
+    <dimen name="new_tag_size">16dp</dimen>
+
+    <dimen name="title_back_img">20dp</dimen>
+    <dimen name="text_size_title_back_to">21sp</dimen>
+
+    <dimen name="style_button_text_size">9sp</dimen>
+    <dimen name="style_button_padding_left">15dp</dimen>
+    <dimen name="style_button_padding_right">15dp</dimen>
+    <dimen name="style_button_padding_top">10dp</dimen>
+    <dimen name="style_button_padding_bottom">10dp</dimen>
+
+    <dimen name="style_spinner_padding_left">8dp</dimen>
+    <dimen name="style_spinner_padding_right">8dp</dimen>
+    <dimen name="style_spinner_padding_top">8dp</dimen>
+    <dimen name="style_spinner_padding_bottom">8dp</dimen>
+
+    <!--配置页面-->
+    <dimen name="config_view_width">150dp</dimen>
+    <dimen name="config_view_padding">10dp</dimen>
+    <dimen name="config_title_text_size">16sp</dimen>
+    <dimen name="config_padding_bottom">15dp</dimen>
+    <dimen name="config_padding_top">15dp</dimen>
+
+
+    <!--关于我们-->
+    <dimen name="logo_size">80dp</dimen>
+    <dimen name="mine_text_size">20sp</dimen>
+    <dimen name="search_min_height">35dp</dimen>
+    <dimen name="edit_padding">10dp</dimen>
+    <dimen name="search_edit_text">16sp</dimen>
+    <dimen name="tv_import_margin_top">15dp</dimen>
+    <dimen name="tv_import_margin_bottom">15dp</dimen>
+    <dimen name="history_padding_top">15dp</dimen>
+    <dimen name="history_padding_bottom">15dp</dimen>
+    <dimen name="history_margin_left">20dp</dimen>
+    <dimen name="history_margin_right">20dp</dimen>
+
+
+</resources>

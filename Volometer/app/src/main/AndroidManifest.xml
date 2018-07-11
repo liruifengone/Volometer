@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,8 @@
         <activity android:name=".activity.ConfigImportActivity" />
         <activity android:name=".activity.MeasureHistoryActivity" />
         <activity android:name=".activity.MineSyncActivity" />
-        <activity android:name=".activity.ConnectionModeActivity"></activity>
+        <activity android:name=".activity.ConnectionModeActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

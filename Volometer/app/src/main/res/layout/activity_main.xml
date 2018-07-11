@@ -20,7 +20,6 @@
             android:layout_height="wrap_content"
             app:tabSelectedTextColor="@color/colorAccent"
             app:tabIndicatorColor="@color/colorAccent"
-
             android:layout_alignParentBottom="true">
     </android.support.design.widget.TabLayout>
 

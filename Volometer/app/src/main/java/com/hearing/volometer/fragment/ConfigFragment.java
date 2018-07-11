@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.hearing.volometer.R;
 import com.hearing.volometer.activity.ConfigImportActivity;
+import com.hearing.volometer.activity.LauncherActivity;
 import com.hearing.volometer.adapter.FragmentAdapter;
 import com.hearing.volometer.adapter.TwoFragmentAdapter;
 import com.hearing.volometer.view.TwoViewPagerFixed;
@@ -58,6 +59,8 @@ public class ConfigFragment extends BaseFragment {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getContext(), LauncherActivity.class);
+                startActivity(intent);
 
             }
         });
